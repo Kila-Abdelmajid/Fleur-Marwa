@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import CartModal from './components/Cart/CartModal';
 import CartProvider from './contexts/CartContext';
 import './index.css';
+import CategoriesSection from './components/CategoriesSection/CategoriesSection';
 
 function App() {
   return (
@@ -17,8 +18,10 @@ function App() {
         <Header />
         <main>
           <Hero />
+          <CategoriesSection />
           <Products />
           <Team />
+                    
           <Reviews />
           <Contact />
         </main>

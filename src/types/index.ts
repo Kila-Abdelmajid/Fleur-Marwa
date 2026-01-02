@@ -51,3 +51,9 @@ export interface ContactFormData {
   phone: string;
   message: string;
 }
+export interface CategorySection {
+  id: number;
+  title: string;
+  image: string;
+  category: Product['category'];
+}
